@@ -1,0 +1,238 @@
+*{
+    --main-color: #8e7754;
+    --main-font:  'Alegreya', serif;
+}
+
+/* Start Nav */
+
+
+.nav-ul li{
+    font-size: 18px;
+    padding: 12px;
+    font-family: var(--main-font);
+}
+
+/* End Nav */
+
+/* Start Home */
+
+#home{
+    background-image: url(../imgs/drew-coffman-1872\ \(1\).jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 85vh;
+}
+
+#home h1{
+    font-family: var(--main-font);
+    font-size: 80px;
+}
+
+.layer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.home-btns .f-btn{
+    background-color: var(--main-color);
+    padding: 15px 25px;
+    transition: 0.4s;
+}
+
+.home-btns .s-btn{
+    border: 1px solid #fff;
+    padding: 15px 25px;
+    transition: 0.4s;
+
+}
+
+.home-btns a:hover{
+    background-color: #fff;
+    color: black;
+}
+
+span{
+transition: 0.4s;
+}
+
+.home-btns a:hover span{
+    color: black;
+}
+
+/* End Home */
+
+/* Start Section One */
+
+.content{
+    margin-top: 50px;
+}
+
+.content h1{
+    font-family: var(--main-font);
+}
+
+.list ul li{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.i-txt{
+    margin-left: 25px;
+}
+
+.i-list{
+    border: 1px solid #dedede;
+    color: var(--main-color);
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* End Section One */
+
+/* Start Our Location */
+
+.our-location{
+    background-color: #f8f8f8;
+}
+
+/* End Our Location */
+
+/* Start Our Baking */
+
+.content h2{
+    font-family: var(--main-font);
+}
+
+.content p{
+    font-size: 16px;
+}
+
+.desc h3{
+    font-family: var(--main-font);
+}
+
+.desc p{
+    font-size: 16px;
+}
+
+/* End Our Baking */
+
+/* Start Last Section */
+
+.last{
+    background-color: #403d38;
+}
+
+.last h5{
+    font-family: var(--main-font);
+    margin-bottom: 25px;
+}
+
+.last p{
+    font-size: 12px;
+    line-height: 2em;
+    letter-spacing: 1px;
+    color: #969696;
+}
+
+.last .list ul li{
+    margin: 20px 0;
+    color: #969696;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    position: relative;
+}
+
+.last .list ul li::after{
+    content: "\f105";
+    position: absolute;
+    left: -15px;
+    font-family: FontAwesome;
+    color: #969696;
+    transition: padding .3s;
+}
+
+.contact{
+    position: relative;
+}
+
+.contact .bg{
+    width: 100%;
+    height: 90%;
+    background-image: url(../imgs/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    opacity: 0.09;
+}
+
+.last .list-3 ul li{
+    list-style: none;
+    margin: 20px 0;
+    color: #969696;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    position: relative;
+}
+
+.last .list-3 ul li span{
+    margin-right: 10px;
+}
+
+/* End Last Section */
+
+/* Start Footer */
+
+footer{
+    background-color: #353330;
+}
+
+footer p{
+    color: #969696;
+}
+
+footer .footer-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .footer-icons span i{
+    background-color: #403d38;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #969696;
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+footer .footer-icons .fb i:hover{
+    background-color:#3b5998 !important;
+    color: #fff;
+}
+footer .footer-icons .gg i:hover{
+    background-color: #dd4b39 !important;
+    color: #fff;
+}
+footer .footer-icons .li i:hover{
+    background-color: #007bb5 !important;
+    color: #fff;
+}
+footer .footer-icons .tw i:hover{
+    background-color: #00aced !important;
+    color: #fff;
+}
+
+/* End Footer */
